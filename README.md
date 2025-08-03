@@ -13,7 +13,7 @@ This tool calculates **European option prices**, visualizes **Greeks**, models *
 🌐 [aurokrishnaa.me](https://www.aurokrishnaa.me)  
 🔗 [LinkedIn → @aurokrishnaa](https://www.linkedin.com/in/aurokrishnaa/)
 
-> *Actively seeking roles in Finance, Quantitative Analysis, or Data-driven Strategy.*
+> *Actively seeking roles in Finance, Quantitative Analysis, Financial Analysis.*
 
 ---
 
