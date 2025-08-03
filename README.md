@@ -9,7 +9,7 @@ This tool calculates **European option prices**, visualizes **Greeks**, models *
 ##  About the Author
 
 **Aurokrishnaa Ravindran Lakshmi**  
-🎓 MS in Finance (Quantitative Finance) – University at Buffalo  
+ MS in Finance (Quantitative Finance) – University at Buffalo  
 🌐 [aurokrishnaa.me](https://www.aurokrishnaa.me)  
 🔗 [LinkedIn → @aurokrishnaa](https://www.linkedin.com/in/aurokrishnaa/)
 
@@ -29,7 +29,43 @@ This tool calculates **European option prices**, visualizes **Greeks**, models *
 
 ---
 
-## 🚀 How to Run Locally
+## Screenshots
+
+| Feature | Preview |
+|--------|---------|
+| **Sidebar Model Inputs** | ![](model%20screenshots/Screenshots:Model%20Inputs.png) |
+| **Pricing & Greeks Output** | ![](model%20screenshots/Screenshots:Pricing%20%26%20Greeks.png) |
+| **Profit/Loss Calculation** | ![](model%20screenshots/Screenshots:Profit%20Loss%20calculation.png) |
+| **Shock Analysis – Heatmap 1** | ![](model%20screenshots/Screenshots:Shock%20Analysis-Sensitivity%20Heatmap.png) |
+| **Option Price Heatmap (Close-up)** | ![](model%20screenshots/Screenshots:Option%20Price%20Heatmap.png.png) |
+| **Implied Volatility Section** | ![](model%20screenshots/Screenshots:Implied%20Volatility.png.png) |
+| **Footer & Personal Branding** | ![](model%20screenshots/Screenshots:footer.png) |
+
+---
+
+##  Real World Test Case: AAPL Call Option (August 2025)
+
+To demonstrate the practical application of this dashboard, I tested it using a real European-style option on **Apple Inc. (AAPL)** from August 2025. The parameters were sourced from actual option chain data.
+
+| Parameter              | Value                        |
+|------------------------|------------------------------|
+| Underlying Price (S)   | $196.25                      |
+| Strike Price (K)       | $195.00                      |
+| Expiry Date            | August 9, 2025               |
+| Evaluation Date        | August 3, 2025               |
+| Time to Maturity (T)   | 6/365 ≈ **0.0164 years**     |
+| Implied Volatility (σ) | ~22% → **0.22**              |
+| Risk-Free Rate (r)     | **5%**                       |
+| Market Option Price    | **$2.25**                    |
+| Purchase Price (P₀)    | **$2.00** (for P&L testing)  |
+
+This example validates that the Black-Scholes output aligns closely with market pricing and allows for robust **P&L analysis**, **Greeks interpretation**, and **sensitivity visualization** using real financial data.
+
+> A great showcase of how this dashboard can assist in **option valuation, strategy development**, and **financial modeling interviews**.
+
+---
+
+##  How to Run Locally
 
 You can run this app locally using Python and Streamlit:
 
@@ -55,7 +91,7 @@ streamlit run app.py
 
 ## Deployment:
 This app will be hosted online
-🟢 Link will be added here after deployment.
+Link will be added here after deployment.
 
 ## Why This Project?
 This dashboard showcases both quantitative finance knowledge and Python technical skills. It’s a personal project developed to strengthen understanding of option theory while building a full stack finance tool.
