@@ -33,13 +33,13 @@ This tool calculates **European option prices**, visualizes **Greeks**, models *
 
 | Feature | Preview |
 |--------|---------|
-| **Sidebar Model Inputs** | ![](model%20screenshots/Screenshots:Model%20Inputs.png) |
-| **Pricing & Greeks Output** | ![](model%20screenshots/Screenshots:Pricing%20%26%20Greeks.png) |
-| **Profit/Loss Calculation** | ![](model%20screenshots/Screenshots:Profit%20Loss%20calculation.png) |
-| **Shock Analysis – Heatmap 1** | ![](model%20screenshots/Screenshots:Shock%20Analysis-Sensitivity%20Heatmap.png) |
-| **Option Price Heatmap (Close-up)** | ![](model%20screenshots/Screenshots:Option%20Price%20Heatmap.png.png) |
-| **Implied Volatility Section** | ![](model%20screenshots/Screenshots:Implied%20Volatility.png.png) |
-| **Footer & Personal Branding** | ![](model%20screenshots/Screenshots:footer.png) |
+| **Model Inputs** | ![](model_screenshots/model_inputs.png) |
+| **Pricing & Greeks Output** | ![](model_screenshots/pricing_and_greeks.png) |
+| **Profit/Loss Calculation** | ![](model_screenshots/profit_loss_calculation.png) |
+| **Shock Analysis – Heatmap** | ![](model_screenshots/shock_analysis_heatmap.png) |
+| **Option Price Heatmap** | ![](model_screenshots/option_price_heatmap.png) |
+| **Implied Volatility** | ![](model_screenshots/implied_volatility.png) |
+| **Footer Branding** | ![](model_screenshots/footer.png) |
 
 ---
 
