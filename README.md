@@ -89,9 +89,11 @@ streamlit run app.py
 ```
 
 
-## Deployment:
-This app will be hosted online
-Link will be added here after deployment.
+## Deployment: Live Demo
+
+Try the live dashboard here:  
+[https://black-scholes-aurokrishnaa.streamlit.app/](https://black-scholes-aurokrishnaa.streamlit.app/)
+
 
 ## Why This Project?
 This dashboard showcases both quantitative finance knowledge and Python technical skills. It’s a personal project developed to strengthen understanding of option theory while building a full stack finance tool.
