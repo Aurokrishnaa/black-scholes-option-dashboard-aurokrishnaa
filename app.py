@@ -31,22 +31,27 @@ purchase_price = st.sidebar.number_input("**Purchase Price**", value=8.00)
 market_price = st.sidebar.number_input("**Observed Market Price (for IV)**", value=10.00)
 
 # -------------------- Test Case --------------------
-with st.expander("🧪 **Test Case Example**", expanded=False):
+with st.expander(" **Test Case Example: AAPL Option (Aug 2025)**", expanded=False):
     st.markdown("""
-    Use these inputs to verify calculations:
-    - Stock Price = `100`
-    - Strike Price = `100`
-    - Time to Maturity = `1`
-    - Volatility = `0.2`
-    - Risk-Free Rate = `0.05`
-    - Purchase Price = `8`
-    - Market Price = `10.45`
-    Expected results:
-    - **Option Price:** `10.45`
-    - **Delta:** `0.6368`, **Gamma:** `0.0188`
-    - **Vega:** `0.3752`, **Theta:** `-0.0176`, **Rho:** `0.5323`
-    - **P&L:** `2.45`
-    - **IV:** `0.20`
+    This example uses a real AAPL call option from August 2025.
+
+    **Inputs**  
+    - Stock Price = `196.25`  
+    - Strike Price = `195.00`  
+    - Time to Maturity = `0.0164` years  
+    - Volatility = `0.22`  
+    - Risk-Free Rate = `0.05`  
+    - Purchase Price = `2.00`  
+    - Market Price = `2.25`  
+
+    **Expected Results**  
+    - **Option Price:** Approx `2.25`  
+    - **Delta:** ~`0.51`  
+    - **Gamma:** ~`2.10`  
+    - **P&L:** `0.25`  
+    - **Implied Volatility:** ~`0.22`
+
+    >  This demonstrates the dashboard's ability to accurately price options, calculate profit/loss and estimate implied volatility using real market data.
     """)
 
 # -------------------- Section A --------------------
